@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article>
+    <header>
+        <h2 class="post-title">{{ page.title }}</h2>
+        <span class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</span>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+</article>
+
+<nav>
+    {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}">&larr; Previous</a>
+    {% endif %}
+    {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}">Next &rarr;</a>
+    {% endif %}
+</nav>

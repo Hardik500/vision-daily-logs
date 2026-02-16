@@ -1,0 +1,9 @@
+title: "Vision Daily Logs"
+description: "A minimal log of daily visions."
+url: "https://Hardik500.github.io/vision-daily-logs"
+baseurl: "/vision-daily-logs"
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
