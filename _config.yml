@@ -5,5 +5,6 @@ baseurl: "/vision-daily-logs"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 theme: null
+future: true
 plugins:
   - jekyll-seo-tag
